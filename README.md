@@ -3,7 +3,6 @@
 This repository contains a microservices architecture project developed with Spring Boot and Docker. It includes separate services for user management and course management, utilizing MySQL and PostgreSQL databases respectively.
 
 ## Table of Contents
-- [Overview](#overview)
 - [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
@@ -23,8 +22,6 @@ Both services are containerized using Docker and utilize MySQL and PostgreSQL da
 The architecture consists of:
 - **User Service**: Manages user data stored in a MySQL database.
 - **Course Service**: Manages course data stored in a PostgreSQL database.
-- **API Gateway**: (Optional) For routing requests to appropriate services.
-- **Service Discovery**: (Optional) For locating services dynamically.
 
 ![Architecture Diagram](path/to/your/architecture-diagram.png)
 
@@ -33,7 +30,6 @@ The architecture consists of:
 - **Docker**: For containerizing applications.
 - **MySQL**: As the database for the user service.
 - **PostgreSQL**: As the database for the course service.
-- **Spring Cloud**: (Optional) For service discovery and API gateway.
 - **Docker Compose**: For managing multi-container Docker applications.
 
 ## Setup and Installation
@@ -77,9 +73,6 @@ Once the services are up and running, you can access them at the following URLs:
 ### Course Service
 - `GET /courses`: Retrieve all courses.
 - `POST /courses`: Create a new course.
-
-## Contributing
-Contributions are welcome! Please fork this repository and submit a pull request for review.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
