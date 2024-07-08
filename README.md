@@ -22,7 +22,7 @@ The architecture consists of:
 - **User Service**: Manages user data stored in a MySQL database.
 - **Course Service**: Manages course data stored in a PostgreSQL database.
 
-![Architecture Diagram](path/to/your/architecture-diagram.png)
+![Architecture Diagram](diagram.png)
 
 ## Technologies Used
 - **Spring Boot**: For creating microservices.
