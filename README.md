@@ -8,7 +8,6 @@ This repository contains a microservices architecture project developed with Spr
 - [Setup and Installation](#setup-and-installation)
 - [Running the Project](#running-the-project)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
