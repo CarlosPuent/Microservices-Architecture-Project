@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:postgresql://${DB_HOST:postgres14}:${DB_PORT:5432}/${DB_DATABASE:msvc_cursos}
     username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:83Dakota77}
+    password: ${DB_PASSWORD: "WRITE YOUR PASSWORD HERE" }
 
     driver-class-name: org.postgresql.Driver
   jpa:
